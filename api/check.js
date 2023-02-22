@@ -12,9 +12,11 @@ const privatekey = 'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE';
 async function getTokenResponse(token) {
 
     let jwtClient = new google.auth.JWT(
-        privatekey.client_email,
+        //privatekey.client_email,
+        'hergerk@gmail.com',
         null,
-        privatekey.private_key,
+        //privatekey.private_key,
+        'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE',
         ['https://www.googleapis.com/auth/playintegrity']);
 
     google.options({ auth: jwtClient });
