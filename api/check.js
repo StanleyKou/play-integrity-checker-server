@@ -78,8 +78,9 @@ module.exports = async (req, res) => {
     }
 
     console.log('Testing, getTokenResponse')
-//     getTokenResponse(token)
-    getAppToken(token)
+    
+    getTokenResponse(token)
+//     getAppToken(token)
         .then(data => {
             res.status(200).send(data)
             return
