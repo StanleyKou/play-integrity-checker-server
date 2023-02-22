@@ -2,8 +2,11 @@ import { google } from "googleapis";
 const playintegrity = google.playintegrity('v1');
 
 
-const packageName = process.env.PACKAGE_NAME
-const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS)
+// const packageName = process.env.PACKAGE_NAME;
+const packageName = 'gr.nikolasspyr.integritycheck.stanley';
+
+// const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
+const privatekey = 'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE';
 
 
 async function getTokenResponse(token) {
