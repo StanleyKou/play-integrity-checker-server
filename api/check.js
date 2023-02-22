@@ -11,7 +11,7 @@ const keyFile = process.env.GOOGLE_APPLICATION_CREDENTIALS
 
 async function getAppToken(token) {
   const auth = new google.auth.GoogleAuth({
-    keyFile: 'tactile-wave-378402-4bcbd97d95a9.json',
+    keyFile: './tactile-wave-378402-4bcbd97d95a9.json',
     scopes: ['https://www.googleapis.com/auth/playintegrity'],
   });
 
