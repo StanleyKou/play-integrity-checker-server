@@ -39,6 +39,35 @@ async function getTokenResponse(token) {
     return res.data.tokenPayloadExternal
 }
 
+async function getAppToken(token) {
+
+  const auth = new google.auth.GoogleAuth({
+//     keyFile: 'secret.json',
+    keyFile: privatekey,
+    scopes: ['https://www.googleapis.com/auth/playintegrity'],
+  });
+
+  const authClient = await auth.getClient();
+
+  google.options({auth: authClient});
+
+  const res = await playintegrity.decodeIntegrityToken (
+  {
+    packageName: packageName
+    requestBody:
+        {
+        "integrityToken": token
+        }
+    }
+  );
+
+
+  console.log(res.data);
+
+  return res.data;
+}
+ 
+
 module.exports = async (req, res) => {
 
     const { token = 'none' } = req.query
@@ -49,7 +78,8 @@ module.exports = async (req, res) => {
     }
 
     console.log('Testing, getTokenResponse')
-    getTokenResponse(token)
+//     getTokenResponse(token)
+    getAppToken(token)
         .then(data => {
             res.status(200).send(data)
             return
