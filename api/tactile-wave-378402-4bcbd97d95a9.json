@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tactile-wave-378402",
+  "private_key_id": "4bcbd97d95a907509946498b861db9f354dc4c4f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHldCbVW/nGl4x\n7RgCLRXhU2Pt7zmMqKqPbhRWYn49BtCn22W5r0jLCd1raOtP0rTFU3KucDunFHcl\nOZ4fjXfBnT+T9TCA6Q0KPVLdCkoOgGcUZQOgndZcwvRnhM9GE8MDM22guoIZNK4h\n1quCWeJ2qeJ54c21dTund5QcJSWQRNSOV8YWYqLk9tLmT55MuMT60CCS8IYbnqkU\nJEv+RBUwSaZRCA3MVNKUx6ddV6wV5D61vgCc7DFN2ssV+oT9WVbquDrIwdBPZKHL\nfMCFHQKSx3JjblMxopiYYhgjp4+TVI8PklCkwLxvvMJCiCYmMC6fXslMOc0CNTFO\n5M6xI5dVAgMBAAECggEAOD5fSY7jmJBFMDOc2uwiqNtroz8RjDJx0jaWs5tQ8Nit\nT0hUG+YqENGoXJ72BQofWCZCgKbvII/zXYGlrkWbFGxAYO0tLH7AZnzOj6zZHsoP\ngl9PDOG96WklH9D86kYiZBIHmE5G4FyIn8+TiInU+FS6lldMNZEibPiVO/M56TQE\n8Ny6t3p9xyh+O+il/jak0AWwfQK2mbThvstnV7qvRb8UrTJ5XQe3S3ycOGnpgBHD\nZ1GYuta9Y/d9GDhqyLOtKRdyBn4pMDI4LLe9CyOVZUDB5hXxJDrN9zhUxs/AbMRL\nHZfXevPvEy/btzqi5sCC8UFHGbaZKs7FC8gq41vaZwKBgQDomCLykPLYDfpFF69q\nn7LTjQn0HGKMB9AOfMBnF4TnghLCGZBwE3bT+3Vf/qmxNpjQpsjXZpYkB2Kyzrc/\noDgkwD51dg0zF7X/4LlgsAoV6Ei8cuoiWgF28IL6JH9T+qApQ3CQr98KGoZH8CS9\niWmYPRN936KQoE6W22R+rIPu+wKBgQDbq1TYV5ZLvf9ein3TrGeMTOUOjB7FnOkp\nvjF4pERWnUOP2FyghaesiVAQpQD4N9EsId1acSodZnL6p1DCEQt2j70roNcCP6PQ\nv7ChS29b6ARP5M4/0vrKnpLGfMo4owdG3f4uK/YUWG35M4josZN2uIJcd4neQC1B\n0ga+0bGB7wKBgG+C4N5iV8r1iJMvc84umlGKQMdkBGsWI82OScAjKnjDh7K/Btx0\nuHeRCwjm0vw/LKx8CbYbXMgRMmR/bqN2cPRNpqQx4MoqB/uRBc8xFuTB5H1UqqOl\neyZG0MSUUuc0NS0TRBhZ+Rii9tXub+7evl1aisnCOfIUqRjyPg/tLaOZAoGBANIF\nzloF6/HA117JpKHz7RCsGDg/adBgRGEfseb5j0kMlSL7pxvmjbidlEpFqFap7zh1\nrFAjcDOp1valb8YMS9xwc1o6Lje9Jt+X1sVv/Slu/Ghyh2toSVXeJNDXUPSzkmqE\nJth4OY+cOJERX62y0h2pLSJBPDSdQWfz6XUZwdBLAoGAIomz4pYxDuYsYxWrzVv6\n6DlLzL7W5JNBxqv4KbsArJIbdX4SMIp76iwSV+f336+3s9TqLtnAJmpFtZ5G6P8p\n7hDxMpELoglUVjrkvWrsTy3GzPnYGlLUoh2KUwrC2RYWu/IKj2bmT3bqa1DKZz3b\nH+ORD5eKwxgIhNgCr9BJ0UY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-play-integrity-service@tactile-wave-378402.iam.gserviceaccount.com",
+  "client_id": "102126734323236846098",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-play-integrity-service%40tactile-wave-378402.iam.gserviceaccount.com"
+}
