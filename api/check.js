@@ -1,8 +1,8 @@
 import { google } from "googleapis";
 const playintegrity = google.playintegrity('v1');
 
-console.log('Testing, packageName:' + process.env.PACKAGE_NAME )
-console.log('Testing, privatekey:' + process.env.GOOGLE_APPLICATION_CREDENTIALS )
+// console.log('Testing, packageName:' + process.env.PACKAGE_NAME )
+// console.log('Testing, privatekey:' + process.env.GOOGLE_APPLICATION_CREDENTIALS )
 
 const packageName = process.env.PACKAGE_NAME;
 const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
