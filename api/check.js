@@ -7,9 +7,11 @@ console.log('Testing, packageName:' + process.env.PACKAGE_NAME);
 const packageName = process.env.PACKAGE_NAME;
 const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
 
+const keyFile = process.env.GOOGLE_APPLICATION_CREDENTIALS
+
 async function getAppToken(token) {
   const auth = new google.auth.GoogleAuth({
-    keyFile: privatekey,
+    keyFile: keyFile,
     scopes: ['https://www.googleapis.com/auth/playintegrity'],
   });
 
