@@ -1,26 +1,14 @@
 import { google } from "googleapis";
 const playintegrity = google.playintegrity('v1');
 
-
-// const packageName = process.env.PACKAGE_NAME;
-const packageName = 'gr.nikolasspyr.integritycheck.stanley';
-
-// const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
-// const privatekey = 'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE';
-const pricatekey = 'AIzaSyARr7w84tClTb6yuEoN9Uadtppo_1owgJg';
-
+const packageName = process.env.PACKAGE_NAME;
+const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
 
 async function getTokenResponse(token) {
 
     let jwtClient = new google.auth.JWT(
-        // privatekey.client_email,
-        // 'hergerk@gmail.com',
-        'firebase-adminsdk-1srsy@tactile-wave-378402.iam.gserviceaccount.com'
-        
-        null,
-        //privatekey.private_key,
-        'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE',
-        
+        privatekey.client_email,        
+        privatekey.private_key,
         ['https://www.googleapis.com/auth/playintegrity']);
 
     google.options({ auth: jwtClient });
