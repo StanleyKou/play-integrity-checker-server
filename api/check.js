@@ -6,17 +6,21 @@ const playintegrity = google.playintegrity('v1');
 const packageName = 'gr.nikolasspyr.integritycheck.stanley';
 
 // const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS);
-const privatekey = 'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE';
+// const privatekey = 'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE';
+const pricatekey = 'AIzaSyARr7w84tClTb6yuEoN9Uadtppo_1owgJg';
 
 
 async function getTokenResponse(token) {
 
     let jwtClient = new google.auth.JWT(
-        //privatekey.client_email,
-        'hergerk@gmail.com',
+        // privatekey.client_email,
+        // 'hergerk@gmail.com',
+        'firebase-adminsdk-1srsy@tactile-wave-378402.iam.gserviceaccount.com'
+        
         null,
         //privatekey.private_key,
         'AIzaSyCjw7Zfm84PU8Sq8fJZz6IbZ8BdARHsvTE',
+        
         ['https://www.googleapis.com/auth/playintegrity']);
 
     google.options({ auth: jwtClient });
